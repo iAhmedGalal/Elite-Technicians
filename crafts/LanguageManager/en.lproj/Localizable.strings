@@ -1,0 +1,641 @@
+/* 
+  Localizable.strings
+  crafts
+
+  Created by AL Badr  on 12/28/20.
+  
+*/
+
+"Show All" = "Show All";
+
+"Beauty Specialists" = "Beauty Specialists";
+
+"Our services" = "Our services";
+
+"Articles" = "Articles";
+
+"Welcome" = "Welcome";
+
+"Login" = "Login";
+
+"Profile" = "Profile";
+
+"My orders" = "My orders";
+
+"Chats" = "Chats";
+
+"Notifications" = "Notifications";
+
+"Verification request" = "Verification request";
+
+"Account statement" = "Account statement";
+
+"Favourites" = "Favourites";
+
+"Saved locations" = "Saved locations";
+
+"Terms and conditions" = "Terms and conditions";
+
+"About us" = "About us";
+
+"Contact us" = "Contact us";
+
+"Logout" = "Logout";
+
+"Home" = "Home";
+
+"Wallet" = "Wallet";
+
+"Add national identity or residence image" = "Add national identity or residence image";
+
+"Send" = "Send";
+
+"Total balance:" = "Total balance:";
+
+"Total points:" = "Total points:";
+
+"Point" = "Point";
+
+"Located Address" = "Located Address";
+
+"Saved Locations" = "Saved Locations";
+
+"Choose" = "Choose";
+
+"Email" = "Email";
+
+"Phone number" = "Phone number";
+
+"Address" = "Address";
+
+"My Wallet" = "My Wallet";
+
+"My Points" = "My Points";
+
+///////////////////////////////////////////////////////////////
+
+"Current orders" = "Current orders";
+
+"Previous orders" = "Previous orders";
+
+"No Orders yet." = "No Orders yet.";
+
+"Convert to points" = "Convert to points";
+
+"Please note that the Riyal is equal to 34 points." = "Please note that the Riyal is equal to 34 points.";
+
+"CONFIRM" = "CONFIRM";
+
+"CANCEL" = "CANCEL";
+
+"BACK" = "BACK";
+
+"SEND" = "SEND";
+
+"Refund" = "Refund";
+
+"INFORM MANAGEMENT" = "INFORM MANAGEMENT";
+
+"CONVINCED" = "CONVINCED";
+
+"Reasons for rejecting the order" = "Reasons for rejecting the order";
+
+"Choose another date" = "Choose another date";
+
+"Inform Management" = "Inform Management";
+
+"Rate" = "Rate";
+
+"Rate and add comment" = "Rate and add comment";
+
+"Choose Rate" = "Choose Rate";
+
+"Add Comment" = "Add Comment";
+
+"No Messages yet." = "No Messages yet.";
+
+"Empty Favourites" = "Empty Favourites";
+
+"No Notifications yet." = "No Notifications yet.";
+
+"No Places yet." = "No Places yet.";
+
+"No Data yet." = "No Data yet.";
+
+"My current balance:" = "My current balance:";
+
+"No Data yet." = "No Data yet.";
+
+"SAR" = "SAR";
+
+"Type a message" = "Type a message";
+
+"Enter your report" = "Enter your report";
+
+"How do you want to refund?" = "How do you want to refund?";
+
+///////////////////////////////////////////////////////////////
+
+"Choose City" = "Choose City";
+
+"Total" = "Total";
+
+"This service is provided to women, and a woman is required to be presented at home. In the absence of a woman at home, we apologize for providing the service." = "This service is provided to women, and a woman is required to be presented at home. In the absence of a woman at home, we apologize for providing the service.";
+
+"Next" = "Next";
+
+"Add to reservation" = "Add to reservation";
+
+"VAT" = "VAT";
+
+"Total after VAT" = "Total after VAT";
+
+"Tax Number" = "Tax Number";
+
+"Do you have coupon?" = "Do you have coupon?";
+
+"Electronic Payment" = "Electronic Payment";
+
+"Bank Transfer" = "Bank Transfer";
+
+"Bank transfer" = "Bank transfer";
+
+"Pay When The Service Provider Arrives" = "Pay When The Service Provider Arrives";
+
+"Pay In Points" = "Pay In Points";
+
+"Pay in points" = "Pay in points";
+
+"Reservation completed" = "Reservation completed";
+
+"Go to my orders" = "Go to my orders";
+
+"Add the bank transfer image" = "Add the bank transfer image";
+
+"Pay on delivery" = "Pay on delivery";
+
+"Tax number" = "Tax number";
+
+"We will add" = "We will add";
+
+"to your order" = "to your order";
+
+"Proceed" = "Proceed";
+
+///////////////////////////////////////////////////////////////
+
+"Details and Ratings" = "Details and Ratings";
+
+"Clients Comments" = "Clients Comments";
+
+"Completed Services" = "Completed Services";
+
+"Details" = "Details";
+
+"Work areas" = "Work areas";
+
+"Certified from saloon/institute" = "Certified from saloon/institute";
+
+"Services" = "Services";
+
+"No Comments yet." = "No Comments yet.";
+
+"My current balance:" = "My current balance:";
+
+"Pay the due" = "Pay the due";
+
+"PAY THE DUE" = "PAY THE DUE";
+
+"Request the due" = "Request the due";
+
+"Total receivables:" = "Total receivables:";
+
+"Confirm receipt of payment?" = "Confirm receipt of payment?";
+
+"Rejection Reasons" = "Rejection Reasons";
+
+"CONFIRM AND RATE CLIENT" = "CONFIRM AND RATE CLIENT";
+
+"The amount received from the client" = "The amount received from the client";
+
+"Required amount:" = "Required amount:";
+
+"Amount" = "Amount";
+
+"Suggest other appointments" = "Suggest other appointments";
+
+"ADD" = "ADD";
+
+"HH" = "HH";
+
+"MM" = "MM";
+
+"AM" = "AM";
+
+"PM" = "PM";
+
+///////////////////////////////////////////////////////////////
+
+"My info" = "My info";
+
+"Client" = "Client";
+
+"Service provider" = "Service provider";
+
+"Providers comments" = "Providers Comments";
+
+"Remember me?" = "Remember me?";
+
+"Forget Password" = "Forget Password";
+
+"Login" = "Login";
+
+"Create Account" = "Create Account";
+
+"Activate" = "Activate";
+
+"Enter code sent to your email" = "Enter code sent to your email";
+
+"Enter code sent to your phone" = "Enter code sent to your phone";
+
+"SAVE" = "SAVE";
+
+"Reset code will be sent to your email" = "Reset code will be sent to your email";
+
+"Reset code will be sent to your phone" = "Reset code will be sent to your phone";
+
+"Serial number" = "Serial number";
+
+"Add profile photo" = "Add profile photo";
+
+"Add national ID or residence image" = "Add national ID or residence image";
+
+"Add image or video" = "Add image or video";
+
+"The Services you provide" = "The Services you provide";
+
+"If you work for a woman's salon or have a certificate from a verified institute" = "If you work for a woman's salon or have a certificate from a verified institute";
+
+"Copy of certificate" = "Copy of certificate";
+
+"Save" = "Save";
+
+"Change Password" = "Change Password";
+
+"Create" = "Create";
+
+"Agree to All" = "Agree to All";
+
+"Terms And Conditions" = "Terms And Conditions";
+
+///////////////////////////////////////////////////////////////
+
+"Order Number:" = "Order Number:";
+"Service date:" = "Service date:";
+"Required amount:" = "Required amount:";
+"Paid amount:" = "Paid amount:";
+"Total Service:" = "Total Service:";
+"Value added:" = "Value added:";
+"Commission:" = "Commission:";
+"Remaining balance:" = "Remaining balance:";
+"Deserved amount:" = "Deserved amount:";
+"Payment type:" = "Payment type:";
+"REQUEST DUE" = "REQUEST DUE";
+"Order status:" = "Order status:";
+"Refund amount:" = "Refund amount:";
+"REFUND" = "REFUND";
+"CONVERT TO POINTS" = "CONVERT TO POINTS";
+"Payment total:" = "Payment total:";
+"Points earned:" = "Points earned:";
+"Statement:" = "Statement:";
+
+"Total:" = "Total:";
+
+"Order number:" = "Order number:";
+"Order status" = "Order status";
+"Service:" = "Service:";
+"Address:" = "Address:";
+"Service date:" = "Service date:";
+"Time:" = "Time:";
+"Service provider name:" = "Service provider name:";
+"Payment type:" = "Payment type:";
+"Total Service:" = "Total Service:";
+"Value added:" = "Value added:";
+"Payment fees on service provider arrival:" = "Payment fees on service provider arrival:";
+"Payment fees on service provider arrival" = "Payment fees on service provider arrival";
+
+"Required amount:" = "Required amount:";
+"Track Provider" = "Track Provider";
+"Chat" = "Chat";
+"Bank Transfer" = "Bank Transfer";
+"ePay" = "ePay";
+"Cancel" = "Cancel";
+"Another Date Suggestion" = "Another Date Suggestion";
+"Cancellation Reason" = "Cancellation Reason";
+"Pay and Rate" = "Pay and Rate";
+
+"Certified from" = "Certified from";
+"Discount" = "Discount";
+
+"Client Name:" = "Client Name:";
+"Client name:" = "Client name:";
+
+"Detect Location" = "Detect Location";
+"Rejected" = "Rejected";
+"Confirm" = "Confirm";
+"Reject" = "Reject";
+"Completed" = "Completed";
+"REQUEST ANOTHER APPOINTMENT" = "REQUEST ANOTHER APPOINTMENT";
+
+///////////////////////////////////////////////////////////////
+
+
+"Type a message" = "Type a message";
+"Now" = "Now";
+
+"Check Your Internet Connection" = "Check Your Internet Connection";
+"Camera is not Available" = "Camera is not Available";
+"Cancel" = "Cancel";
+"Camera" = "Camera";
+"Photo Library" = "Photo Library";
+"Message" = "Message";
+"Enter Message Body" = "Enter Message Body";
+"Enter your name" = "Enter your name";
+"Enter your phone number" = "Enter your phone number";
+"Enter a valid phone number" = "Enter a valid phone number";
+"Enter your email" = "Enter your email";
+"Enter a valid email" = "Enter a valid email";
+"Yes" = "Yes";
+"No" = "No";
+"Delete from places?" = "Delete from places?";
+
+
+"Delete from favourites?" = "Delete from favourites?";
+"Please, Upload Verification Image" = "Please, Upload Verification Image";
+"Please, Enter National ID or residence number" = "Please, Enter National ID or residence number";
+"Articles" = "Articles";
+"Provider" = "Provider";
+"Services" = "Services";
+"Wallet" = "Wallet";
+"Contact us" = "Contact us";
+
+"About us" = "About us";
+"Terms and conditions" = "Terms and conditions";
+"Saved Locations" = "Saved Locations";
+"Favourites" = "Favourites";
+"Account Statement" = "Account Statement";
+"Verification Request" = "Verification Request";
+"Notifications" = "Notifications";
+"Messages" = "Messages";
+"My Orders" = "My Orders";
+"Orders" = "Orders";
+"Profile" = "Profile";
+"Login" = "Login";
+"Welcome" = "Welcome";
+"Enter activation code" = "Enter activation code";
+
+"Enter old password" = "Enter old password";
+"Enter new password" = "Enter new password";
+"Password must be at least 6 digits" = "Password must be at least 6 digits";
+"Enter new password confirmation" = "Enter new password confirmation";
+"Password doesn't match" = "Password doesn't match";
+
+"Enter the code" = "Enter the code";
+"Enter your email" = "Enter your email";
+"Enter valid email" = "Enter valid email";
+
+
+"Reset password" = "Reset password";
+"All" = "All";
+"Choose district" = "Choose district";
+"The Services you provide" = "The Services you provide";
+"Change Password" = "Change Password";
+"Enter your national ID or residence number" = "Enter your national ID or residence number";
+"Enter your name" = "Enter your name";
+"Enter your phone number" = "Enter your phone number";
+"Phone number must be 10 digits and begin with 05" = "Phone number must be 10 digits and begin with 05";
+"Enter your email" = "Enter your email";
+"Enter valid email" = "Enter valid email";
+"Enter your address" = "Enter your address";
+"Choose your city" = "Choose your city";
+"Attach your profile photo" = "Attach your profile photo";
+"Attach your national ID or residence image" = "Attach your national ID or residence image";
+"No Cities" = "No Cities";
+"No Districts" = "No Districts";
+"No Services" = "No Services";
+"Choose city" = "Choose city";
+"My info" = "My info";
+"Clients comments" = "Clients comments";
+"Providers comments" = "Providers comments";
+"You must agree to all terms and conditions" = "You must agree to all terms and conditions";
+"Enter Password" = "Enter Password";
+"Registration Done Successfully" = "Registration Done Successfully";
+"Registration" = "Registration";
+"Enter your email or phone number" = "Enter your email or phone number";
+"Forget Password" = "Forget Password";
+"Login Done Successfully" = "Login Done Successfully";
+"Search for place" = "Search for place";
+"My Orders" = "My Orders";
+"Current orders" = "Current orders";
+"Previous orders" = "Previous orders";
+"Please enter your comment" = "Please enter your comment";
+"Please rate the service" = "Please rate the service";
+"Please enter your rejection reasons" = "Please enter your rejection reasons";
+"Enter your report" = "Enter your report";
+"Please enter your report" = "Please enter your report";
+"Choose the new date" = "Choose the new date";
+"Select date" = "Select date";
+"Select time" = "Select time";
+"Done" = "Done";
+"Enter money paid" = "Enter money paid";
+"Paid amount is less than required" = "Paid amount is less than required";
+"My Wallet" = "My Wallet";
+"My Points" = "My Points";
+"How do you want to refund?" = "How do you want to refund?";
+"Please enter how do want to get refund" = "Please enter how do want to get refund";
+"Details and Ratings" = "Details and Ratings";
+"Clients Comments" = "Clients Comments";
+"Please, Login first" = "Please, Login first";
+"Pay the due" = "Pay the due";
+"Request the due" = "Request the due";
+"Services Reservation" = "Services Reservation";
+"Choose your city" = "Choose your city";
+"Select your address" = "Select your address";
+"Select reservation date" = "Select reservation date";
+"Select reservation time" = "Select reservation time";
+"Choose service provider" = "Choose service provider";
+"Nearest" = "Nearest";
+"Please, Upload Bank Transfer Image" = "Please, Upload Bank Transfer Image";
+"We will add" = "We will add";
+"to your order" = "to your order";
+"Choose payment method" = "Choose payment method";
+
+"Client Registration" = "Client Registration";
+"Provider Registration" = "Provider Registration";
+
+"Determine lacation and time" = "Determine lacation and time";
+"Choose service provider" = "Choose service provider";
+
+"Not Confirmed" = "Not Confirmed";
+"Delete from orders?" = "Delete from orders?";
+
+"Waiting" = "Waiting";
+"Cash Back" = "Cash Back";
+"Convert To Points" = "Convert To Points";
+
+"The rating was done before" = "The rating was done before";
+
+"Change Appointement" = "Change Appointement";
+
+"Receive the amount and complete the service" = "Receive the amount and complete the service";
+"FINISH SERVICE" = "FINISH SERVICE";
+
+"Confirmed" = "Confirmed";
+
+"Processing" = "Processing";
+
+"Ended" = "Ended";
+
+"This account is blocked" = "This account is blocked";
+
+"Choose your service city" = "Choose your service city";
+
+"Choose your service districrs" = "Choose your service districrs";
+
+"Choose your service areas" = "Choose your service areas";
+
+"Choose services you provide" = "Choose services you provide";
+
+"You have already added the district" = "You have already added the district";
+
+"You have already added the area" = "You have already added the area";
+
+"You have already added the service" = "You have already added the service";
+
+"Choose location" = "Choose location";
+
+"Choose Area" = "Choose Area";
+
+"Choose area" = "Choose area";
+
+"Choose your work cities" = "Choose your work cities";
+
+"Choose your account type" = "Choose your account type";
+
+"Person" = "Person";
+
+"Restaurant" = "Restaurant";
+
+"Choose City" = "Choose City";
+
+"No Areas" = "No Areas";
+
+"About services" = "About services";
+
+"Chosen payment method will be: Pay When The Service Provider Arrives" = "Chosen payment method will be: Pay When The Service Provider Arrives";
+
+"Back to home screen" = "Back to home screen";
+
+"Payment completed" = "Payment completed";
+
+"Pending Admin Agreement" = "Pending Admin Agreement";
+/////////////////////////////////
+
+"My services" = "My services";
+"Commission" = "Commission";
+"Commission discount request" = "Commission discount request";
+"Num of technicians" = "Num of technicians";
+"Experience" = "Experience";
+"Highest rated" = "Highest rated";
+"Closest" = "Closest";
+
+"About service" = "About service";
+"About service provider" = "About service provider";
+"Request specific service" = "Request specific service";
+"Total services price" = "Total services price";
+"REQUEST NOW" = "REQUEST NOW";
+
+"Add New Offer" = "Add New Offer";
+"Offer price" = "Offer price";
+"ADD OFFER" = "ADD OFFER";
+"Service Image" = "Service Image";
+"Choose main section" = "Choose main section";
+"Choose subsection" = "Choose subsection";
+
+"Service name" = "Service name";
+"Service name in English" = "Service name in English";
+"Service price" = "Service price";
+"Total after discount" = "Total after discount";
+
+"Add Offer" = "Add Offer";
+"Remove Offer" = "Remove Offer";
+"Remove Service" = "Remove Service";
+
+"Enter offer price" = "Enter offer price";
+"Enter service Arabic name" = "Enter service Arabic name";
+"Enter service English name" = "Enter service English name";
+"Enter service price" = "Enter service price";
+"Choose service main section" = "Choose service main section";
+"Choose service subsection" = "Choose service subsection";
+"Attach service image" = "Attach service image";
+"No sections found" = "No sections found";
+
+"Coupon discount value" = "Coupon discount value";
+
+"Pending apply orders" = "Pending apply orders";
+
+"Being processed" = "Being processed";
+
+"Paid" = "paid";
+
+"Unpaid" = "paid";
+
+"Choose your area" = "Choose your area";
+
+"Choose work city" = "Choose work city";
+
+"Choose work area" = "Choose work area";
+
+"Choose services" = "Choose work area";
+
+"Select Service" = "Select Service";
+
+"Registration Done Successfully. Pending Management Approval" = "Registration Done Successfully. Pending Management Approval";
+
+"Comment Objection" = "Comment Objection";
+
+"Please enter your objection" = "Please enter your objection";
+
+"Objection Reasons" = "Objection Reasons";
+///////////////////////////////////////////////////
+"Describe the problem in principle (Optional)" = "Describe the problem in principle (Optional)";
+
+"Enter service name" = "Enter service name";
+
+"New Service Order" = "New Service Order";
+
+"Alert" = "Alert";
+
+"New Service Order" = "New Service Order";
+
+"Add Service" = "Add Service";
+
+"Apply For Order" = "Apply For Order";
+
+"Required" = "Required";
+
+"Service Cost" = "Service Cost";
+"Problem describtion" = "Problem describtion";
+"Date:" = "Date:";
+"OK" = "OK";
+"SELECT DATES" = "SELECT DATES";
+"(Optional)" = "(Optional)";
+"NEXT" = "NEXT";
+
+"Service Applicants" = "Service Applicants";
+
+"Waiting orders" = "Waiting orders";
+"Wating accept orders" = "Wating accept orders";
+"Provider name:" = "Provider name:";
+"ACCEPT" = "ACCEPT";
+"PROFILE" = "PROFILE";

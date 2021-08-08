@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="tajawal_medium.ttf">
+            <string>Tajawal-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SpecialistCell" id="gTV-IL-0wX" customClass="SpecialistCell" customModule="salon" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="225"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="290" height="225"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jnN-4l-20O">
+                        <rect key="frame" x="0.0" y="0.0" width="290" height="225"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzb-UZ-ggN" customClass="RoundRectView" customModule="salon" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="274" height="209"/>
+                                <subviews>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boh-mw-Wah">
+                                        <rect key="frame" x="237" y="8" width="29" height="29"/>
+                                        <state key="normal" image="deletered"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="boh-mw-Wah" firstAttribute="top" secondItem="vzb-UZ-ggN" secondAttribute="top" constant="8" id="Xwx-GD-v63"/>
+                                    <constraint firstAttribute="trailing" secondItem="boh-mw-Wah" secondAttribute="trailing" constant="8" id="zfT-Nx-HJe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LGt-yg-FK0">
+                                <rect key="frame" x="102.5" y="16" width="85" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="tUW-yb-o6R"/>
+                                    <constraint firstAttribute="width" constant="85" id="yCv-cj-l17"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="745" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G90-Us-COo">
+                                <rect key="frame" x="12" y="137" width="266" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="j6h-m0-NsV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zp-Jp-L2b">
+                                <rect key="frame" x="124" y="109" width="42" height="20"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verified" translatesAutoresizingMaskIntoConstraints="NO" id="E5Y-xR-bTo">
+                                <rect key="frame" x="96" y="107" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="NU4-wG-Hmq"/>
+                                    <constraint firstAttribute="height" constant="20" id="gYc-FE-JJc"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I1x-X0-omL" customClass="FloatRatingView" customModule="salon" customModuleProvider="target">
+                                <rect key="frame" x="85" y="189" width="120" height="20"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="YcF-NI-TkE"/>
+                                    <constraint firstAttribute="width" constant="120" id="kGi-Jh-zbI"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="stargray"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="starred"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="editable" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="G90-Us-COo" firstAttribute="leading" secondItem="jnN-4l-20O" secondAttribute="leading" constant="12" id="1tq-uO-JDY"/>
+                            <constraint firstItem="LGt-yg-FK0" firstAttribute="centerX" secondItem="jnN-4l-20O" secondAttribute="centerX" id="BA7-dz-OGG"/>
+                            <constraint firstItem="LGt-yg-FK0" firstAttribute="top" secondItem="jnN-4l-20O" secondAttribute="top" constant="16" id="BLI-HO-aUu"/>
+                            <constraint firstItem="7zp-Jp-L2b" firstAttribute="centerX" secondItem="jnN-4l-20O" secondAttribute="centerX" id="BmW-TX-Ksk"/>
+                            <constraint firstAttribute="bottom" secondItem="I1x-X0-omL" secondAttribute="bottom" constant="16" id="Lwz-iu-twh"/>
+                            <constraint firstItem="G90-Us-COo" firstAttribute="centerX" secondItem="jnN-4l-20O" secondAttribute="centerX" id="OAZ-1C-qzq"/>
+                            <constraint firstItem="7zp-Jp-L2b" firstAttribute="leading" secondItem="E5Y-xR-bTo" secondAttribute="trailing" constant="8" id="Phl-gW-ipP"/>
+                            <constraint firstAttribute="bottom" secondItem="vzb-UZ-ggN" secondAttribute="bottom" constant="8" id="RZR-ea-V8C"/>
+                            <constraint firstItem="G90-Us-COo" firstAttribute="top" secondItem="7zp-Jp-L2b" secondAttribute="bottom" constant="8" id="SMN-2G-b1p"/>
+                            <constraint firstItem="7zp-Jp-L2b" firstAttribute="top" secondItem="LGt-yg-FK0" secondAttribute="bottom" constant="8" id="Unc-pd-pRe"/>
+                            <constraint firstAttribute="trailing" secondItem="G90-Us-COo" secondAttribute="trailing" constant="12" id="cvR-px-5bV"/>
+                            <constraint firstAttribute="trailing" secondItem="vzb-UZ-ggN" secondAttribute="trailing" constant="8" id="f0d-zU-cZ6"/>
+                            <constraint firstItem="vzb-UZ-ggN" firstAttribute="leading" secondItem="jnN-4l-20O" secondAttribute="leading" constant="8" id="hiR-ms-Y3q"/>
+                            <constraint firstItem="vzb-UZ-ggN" firstAttribute="top" secondItem="jnN-4l-20O" secondAttribute="top" constant="8" id="hjB-R1-g6b"/>
+                            <constraint firstItem="I1x-X0-omL" firstAttribute="top" secondItem="G90-Us-COo" secondAttribute="bottom" constant="8" id="lFe-Df-QJU"/>
+                            <constraint firstItem="E5Y-xR-bTo" firstAttribute="centerY" secondItem="7zp-Jp-L2b" secondAttribute="centerY" constant="-2" id="tHb-ba-USo"/>
+                            <constraint firstItem="I1x-X0-omL" firstAttribute="centerX" secondItem="jnN-4l-20O" secondAttribute="centerX" id="vol-Ix-JIW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="jnN-4l-20O" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rt6-7R-Nnv"/>
+                <constraint firstAttribute="bottom" secondItem="jnN-4l-20O" secondAttribute="bottom" id="YE5-x3-ugp"/>
+                <constraint firstAttribute="trailing" secondItem="jnN-4l-20O" secondAttribute="trailing" id="mb7-8P-6UU"/>
+                <constraint firstItem="jnN-4l-20O" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tw8-el-ZWP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="290" height="223"/>
+            <connections>
+                <outlet property="deleteBtn" destination="boh-mw-Wah" id="Qce-rA-Ptz"/>
+                <outlet property="image" destination="LGt-yg-FK0" id="ZeV-Pv-dKH"/>
+                <outlet property="rate" destination="I1x-X0-omL" id="Fyf-sa-unu"/>
+                <outlet property="servicesLabel" destination="G90-Us-COo" id="njK-Rq-nhc"/>
+                <outlet property="title" destination="7zp-Jp-L2b" id="Aac-rL-WUN"/>
+                <outlet property="verifiedImage" destination="E5Y-xR-bTo" id="Q3F-Vi-J77"/>
+            </connections>
+            <point key="canvasLocation" x="102.89855072463769" y="204.57589285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="deletered" width="29" height="29"/>
+        <image name="stargray" width="64.5" height="59"/>
+        <image name="starred" width="29" height="29"/>
+        <image name="verified" width="29" height="29"/>
+    </resources>
+</document>

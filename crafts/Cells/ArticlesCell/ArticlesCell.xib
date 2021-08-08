@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="tajawal_medium.ttf">
+            <string>Tajawal-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ArticlesCell" id="gTV-IL-0wX" customClass="ArticlesCell" customModule="crafts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="177" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="177" height="142"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yc-QB-fE0" customClass="RoundRectView" customModule="crafts" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="177" height="142"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MaC-PK-4Gc">
+                                <rect key="frame" x="0.0" y="0.0" width="177" height="142"/>
+                                <color key="backgroundColor" name="primaryColor"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cC8-IX-ELE">
+                                <rect key="frame" x="0.0" y="102" width="177" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="صالون تك" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwu-C4-aGs">
+                                        <rect key="frame" x="2" y="12" width="173" height="20"/>
+                                        <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20392156862745098" green="0.55686274509803924" blue="0.78431372549019607" alpha="0.59942208904109584" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="jwu-C4-aGs" secondAttribute="trailing" constant="2" id="7U8-vX-eVu"/>
+                                    <constraint firstItem="jwu-C4-aGs" firstAttribute="centerX" secondItem="cC8-IX-ELE" secondAttribute="centerX" id="7g5-oY-lKR"/>
+                                    <constraint firstItem="jwu-C4-aGs" firstAttribute="leading" secondItem="cC8-IX-ELE" secondAttribute="leading" constant="2" id="8br-6c-3AS"/>
+                                    <constraint firstAttribute="height" constant="40" id="9xS-hk-wxv"/>
+                                    <constraint firstItem="jwu-C4-aGs" firstAttribute="centerY" secondItem="cC8-IX-ELE" secondAttribute="centerY" constant="2" id="ayM-JK-SUw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="cC8-IX-ELE" secondAttribute="trailing" id="4bR-ul-Ei5"/>
+                            <constraint firstItem="MaC-PK-4Gc" firstAttribute="top" secondItem="6yc-QB-fE0" secondAttribute="top" id="XW7-l6-Z49"/>
+                            <constraint firstItem="MaC-PK-4Gc" firstAttribute="leading" secondItem="6yc-QB-fE0" secondAttribute="leading" id="cgA-88-7rp"/>
+                            <constraint firstAttribute="bottom" secondItem="cC8-IX-ELE" secondAttribute="bottom" id="l9k-JF-YPJ"/>
+                            <constraint firstAttribute="trailing" secondItem="MaC-PK-4Gc" secondAttribute="trailing" id="oyw-Df-3M9"/>
+                            <constraint firstItem="cC8-IX-ELE" firstAttribute="leading" secondItem="6yc-QB-fE0" secondAttribute="leading" id="qFX-KI-4Mr"/>
+                            <constraint firstAttribute="bottom" secondItem="MaC-PK-4Gc" secondAttribute="bottom" id="rfX-U8-6IP"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="primaryColor"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="6yc-QB-fE0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1KB-3g-KsJ"/>
+                <constraint firstAttribute="bottom" secondItem="6yc-QB-fE0" secondAttribute="bottom" id="D9Q-gk-mva"/>
+                <constraint firstAttribute="trailing" secondItem="6yc-QB-fE0" secondAttribute="trailing" id="bjO-0t-jWX"/>
+                <constraint firstItem="6yc-QB-fE0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="stl-nC-UO4"/>
+            </constraints>
+            <size key="customSize" width="177" height="142"/>
+            <connections>
+                <outlet property="image" destination="MaC-PK-4Gc" id="6a9-Kj-eIc"/>
+                <outlet property="title" destination="jwu-C4-aGs" id="rzz-gH-N5B"/>
+            </connections>
+            <point key="canvasLocation" x="181.8840579710145" y="177.45535714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="primaryColor">
+            <color red="0.20399999618530273" green="0.55699998140335083" blue="0.78799998760223389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

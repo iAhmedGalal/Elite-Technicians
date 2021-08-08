@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="tajawal_medium.ttf">
+            <string>Tajawal-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProviderNewServicesCell" id="gTV-IL-0wX" customClass="ProviderNewServicesCell" customModule="crafts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uw4-Sz-Mkd" customClass="RoundRectView" customModule="crafts" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="130"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vAd-hf-Am5">
+                                <rect key="frame" x="8" y="89" width="359" height="33"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjf-bk-lFh" customClass="GradientButton" customModule="crafts" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="114.5" height="33"/>
+                                        <color key="backgroundColor" name="whiteBlue"/>
+                                        <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Add Offer">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shk-No-J7u" customClass="GradientButton" customModule="crafts" customModuleProvider="target">
+                                        <rect key="frame" x="122.5" y="0.0" width="114" height="33"/>
+                                        <color key="backgroundColor" name="orange"/>
+                                        <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Remove Offer">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Pr-aa-eTK" customClass="GradientButton" customModule="crafts" customModuleProvider="target">
+                                        <rect key="frame" x="244.5" y="0.0" width="114.5" height="33"/>
+                                        <color key="backgroundColor" name="orangered"/>
+                                        <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="15"/>
+                                        <inset key="titleEdgeInsets" minX="0.0" minY="5" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Remove Service">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nx-FW-Zap">
+                                <rect key="frame" x="131" y="24" width="39" height="17"/>
+                                <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="B8n-pX-Kml">
+                                <rect key="frame" x="131" y="57" width="86" height="17"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OsG-Rc-f2I">
+                                        <rect key="frame" x="0.0" y="0.0" width="39" height="17"/>
+                                        <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEJ-ue-vKF">
+                                        <rect key="frame" x="47" y="0.0" width="39" height="17"/>
+                                        <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mmL-lj-EiY">
+                                <rect key="frame" x="8" y="8" width="115" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="0Zf-DE-YTZ"/>
+                                    <constraint firstAttribute="width" constant="115" id="gJP-8P-H83"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vAd-hf-Am5" firstAttribute="top" secondItem="mmL-lj-EiY" secondAttribute="bottom" constant="6" id="1gr-br-3H6"/>
+                            <constraint firstAttribute="trailing" secondItem="vAd-hf-Am5" secondAttribute="trailing" constant="8" id="AI0-Oj-kSn"/>
+                            <constraint firstItem="vAd-hf-Am5" firstAttribute="leading" secondItem="uw4-Sz-Mkd" secondAttribute="leading" constant="8" id="Dmu-A4-w2D"/>
+                            <constraint firstAttribute="bottom" secondItem="vAd-hf-Am5" secondAttribute="bottom" constant="8" id="avQ-IE-tI5"/>
+                            <constraint firstItem="5nx-FW-Zap" firstAttribute="top" secondItem="uw4-Sz-Mkd" secondAttribute="top" constant="24" id="fN9-8d-LLq"/>
+                            <constraint firstItem="mmL-lj-EiY" firstAttribute="top" secondItem="uw4-Sz-Mkd" secondAttribute="top" constant="8" id="fqj-a8-WcW"/>
+                            <constraint firstItem="mmL-lj-EiY" firstAttribute="leading" secondItem="uw4-Sz-Mkd" secondAttribute="leading" constant="8" id="h3F-dM-rBl"/>
+                            <constraint firstItem="B8n-pX-Kml" firstAttribute="top" secondItem="5nx-FW-Zap" secondAttribute="bottom" constant="16" id="oml-1A-jwz"/>
+                            <constraint firstItem="5nx-FW-Zap" firstAttribute="leading" secondItem="mmL-lj-EiY" secondAttribute="trailing" constant="8" id="q9d-M0-olo"/>
+                            <constraint firstItem="B8n-pX-Kml" firstAttribute="leading" secondItem="mmL-lj-EiY" secondAttribute="trailing" constant="8" id="vLQ-0i-4nA"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="darkBorderColor"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="uw4-Sz-Mkd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5kx-hM-htg"/>
+                <constraint firstAttribute="trailing" secondItem="uw4-Sz-Mkd" secondAttribute="trailing" id="Vey-vU-IoD"/>
+                <constraint firstAttribute="bottom" secondItem="uw4-Sz-Mkd" secondAttribute="bottom" id="ifF-fr-7pj"/>
+                <constraint firstItem="uw4-Sz-Mkd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="w2Z-4g-IaO"/>
+            </constraints>
+            <size key="customSize" width="409" height="134"/>
+            <connections>
+                <outlet property="addOfferBtn" destination="tjf-bk-lFh" id="01S-Md-gKd"/>
+                <outlet property="discountLabel" destination="OsG-Rc-f2I" id="vui-WA-jn2"/>
+                <outlet property="image" destination="mmL-lj-EiY" id="awq-FH-Ccf"/>
+                <outlet property="name" destination="5nx-FW-Zap" id="cGM-Mk-2Sg"/>
+                <outlet property="priceLabel" destination="WEJ-ue-vKF" id="U2P-r4-1a7"/>
+                <outlet property="removeOfferBtn" destination="Shk-No-J7u" id="5dX-cY-Lm4"/>
+                <outlet property="removeServiceBtn" destination="5Pr-aa-eTK" id="EPP-7j-VVH"/>
+            </connections>
+            <point key="canvasLocation" x="55.797101449275367" y="132.58928571428572"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="5Pr-aa-eTK">
+            <size key="intrinsicContentSize" width="102" height="27"/>
+        </designable>
+        <designable name="Shk-No-J7u">
+            <size key="intrinsicContentSize" width="88" height="27"/>
+        </designable>
+        <designable name="tjf-bk-lFh">
+            <size key="intrinsicContentSize" width="63" height="27"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="darkBorderColor">
+            <color white="0.79500001668930054" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <namedColor name="orange">
+            <color red="0.9649999737739563" green="0.54900002479553223" blue="0.14900000393390656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="orangered">
+            <color red="0.94499999284744263" green="0.42699998617172241" blue="0.31799998879432678" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="whiteBlue">
+            <color red="0.31799998879432678" green="0.76899999380111694" blue="0.89800000190734863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

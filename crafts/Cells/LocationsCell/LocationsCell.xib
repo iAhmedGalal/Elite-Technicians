@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="tajawal_medium.ttf">
+            <string>Tajawal-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LocationsCell" id="gTV-IL-0wX" customClass="LocationsCell" customModule="salon" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="309" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="309" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bD6-fo-FIN">
+                        <rect key="frame" x="0.0" y="0.0" width="309" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PfR-eX-RYU">
+                                <rect key="frame" x="0.0" y="49" width="309" height="1"/>
+                                <color key="backgroundColor" systemColor="systemGray3Color" red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="GkC-qv-Tjv"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iz3-5P-4PG">
+                                <rect key="frame" x="268" y="12.5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="1w7-ux-ywF"/>
+                                    <constraint firstAttribute="width" constant="25" id="8Ff-WL-50A"/>
+                                </constraints>
+                                <state key="normal" image="deletered"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3Pc-ZG-t3z">
+                                <rect key="frame" x="8" y="16" width="252" height="20"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eea-do-czk" customClass="RadioButton" customModule="salon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="d85-g1-XrR"/>
+                                            <constraint firstAttribute="height" constant="20" id="vtt-fB-k3A"/>
+                                        </constraints>
+                                        <state key="normal" image="radiopink"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEC-U3-akw">
+                                        <rect key="frame" x="28" y="0.0" width="224" height="20"/>
+                                        <fontDescription key="fontDescription" name="Tajawal-Medium" family="Tajawal Medium" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Iz3-5P-4PG" firstAttribute="leading" secondItem="3Pc-ZG-t3z" secondAttribute="trailing" constant="8" id="1Nh-4k-tdg"/>
+                            <constraint firstAttribute="trailing" secondItem="Iz3-5P-4PG" secondAttribute="trailing" constant="16" id="RDx-Xa-n28"/>
+                            <constraint firstAttribute="trailing" secondItem="PfR-eX-RYU" secondAttribute="trailing" id="YCm-FG-r07"/>
+                            <constraint firstItem="3Pc-ZG-t3z" firstAttribute="centerY" secondItem="bD6-fo-FIN" secondAttribute="centerY" constant="1" id="c2C-vc-xeK"/>
+                            <constraint firstItem="Iz3-5P-4PG" firstAttribute="centerY" secondItem="bD6-fo-FIN" secondAttribute="centerY" id="fNF-22-VHb"/>
+                            <constraint firstAttribute="bottom" secondItem="PfR-eX-RYU" secondAttribute="bottom" id="hIQ-fU-Qfx"/>
+                            <constraint firstItem="3Pc-ZG-t3z" firstAttribute="leading" secondItem="bD6-fo-FIN" secondAttribute="leading" constant="8" id="vdr-4X-t5n"/>
+                            <constraint firstItem="PfR-eX-RYU" firstAttribute="leading" secondItem="bD6-fo-FIN" secondAttribute="leading" id="yOh-XS-TUd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="bD6-fo-FIN" secondAttribute="bottom" id="7hp-Of-pLj"/>
+                <constraint firstItem="bD6-fo-FIN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="PYr-Fv-3Fl"/>
+                <constraint firstAttribute="trailing" secondItem="bD6-fo-FIN" secondAttribute="trailing" id="icU-Wa-qoa"/>
+                <constraint firstItem="bD6-fo-FIN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="uB5-sI-D4h"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="309" height="50"/>
+            <connections>
+                <outlet property="chooseRadioBtn" destination="Eea-do-czk" id="8eK-RC-c2N"/>
+                <outlet property="deleteBtn" destination="Iz3-5P-4PG" id="qga-hy-pRe"/>
+                <outlet property="location" destination="xEC-U3-akw" id="kl6-S6-dTl"/>
+            </connections>
+            <point key="canvasLocation" x="-55.797101449275367" y="145.98214285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="deletered" width="29" height="29"/>
+        <image name="radiopink" width="29" height="29"/>
+    </resources>
+</document>
